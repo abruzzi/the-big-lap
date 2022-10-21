@@ -1,0 +1,179 @@
+import { notes } from '@mdx-deck/themes';
+
+import redtiger from './images/red-tiger-2.jpg';
+
+import light from './images/light.jpg';
+import jumper from './images/jumper.jpg';
+
+import redtigernsw from './images/red-tiger-nsw.jpg';
+
+import ready from './images/red-tiger-is-ready.jpg';
+import training from './images/towing-training.jpg';
+import adelaide from './images/adelaide.jpg';
+import breaddown from './images/breakdown.jpg';
+import augusta from './images/leave-augusta.jpg';
+import eyre from './images/port-lincoln.jpg';
+
+import backup from './images/backup.jpg';
+import luna from './images/luna.jpg';
+import alice from './images/alice-spring-2.jpg';
+import uluru from './images/uluru-2.jpg';
+import queensland from './images/queesland.jpg';
+
+
+import termite from './images/termite.jpg';
+import skycase from './images/skycase.jpg';
+import yellow from './images/yellow.jpg';
+import lincoln from './images/lincoln.jpg';
+
+import moon1 from './images/moon1.jpg';
+import moon2 from './images/moon2.jpg';
+
+import nt from './images/nt.jpg';
+
+import driving from './images/driving.mp4';
+import macaw from './images/project-macaw.mp4';
+
+export const theme = {
+  ...notes
+};
+
+import { Image } from 'mdx-deck';
+
+
+<Image 
+  src={redtiger}
+  style={{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: 'deeppink',
+    fontSize: '4rem',
+  }}
+>
+
+<h1 style={{ fontSize: '10rem', color: 'white', fontWeight: 'bold' }}><span style={{ color: 'red' }}>Red</span> Tiger</h1>
+
+</Image>
+
+---
+
+<div
+  dangerouslySetInnerHTML={{
+    __html: `
+      <video
+        controls
+        autoplay
+        muted
+        src="${macaw}"
+      />
+    `,
+  }}
+/>
+
+---
+
+<Image src={light} />
+
+---
+
+<Image src={jumper} />
+
+---
+
+# Dry Run at New South Wales
+
+---
+
+<Image src={redtigernsw} />
+
+---
+
+<Image src={training} />
+
+---
+
+# We thought we were ready
+
+---
+
+<Image src={ready} />
+
+---
+
+<Image src={adelaide} />
+
+---
+
+<Image src={breaddown} />
+
+---
+
+# Port Augusta
+
+---
+
+<Image src={augusta} />
+
+---
+
+# Eyre Peninsula
+
+---
+
+<Image src={eyre} />
+
+---
+
+<Image src={lincoln} />
+
+---
+
+<Image src={moon1} />
+
+---
+
+<Image src={backup} />
+
+---
+
+<Image src={luna} />
+
+---
+
+<Image src={nt} />
+
+---
+
+<Image src={alice} />
+
+---
+
+<Image src={uluru} />
+
+---
+
+<Image src={moon2} />
+
+---
+
+<Image src={termite} />
+
+---
+
+<div
+  dangerouslySetInnerHTML={{
+    __html: `
+      <video
+        controls
+        autoplay
+        muted
+        src="${driving}"
+      />
+    `,
+  }}
+/>
+
+--- 
+
+<Image src={yellow} />
